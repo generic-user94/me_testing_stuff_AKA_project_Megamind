@@ -32,6 +32,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.MEGAMINDIUM_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_MEGAMINDIUM_BLOCK.get());
+                        pOutput.accept(ModBlocks.MEGAMINDIUM_ORE.get());
                     })
                     .build());
 
