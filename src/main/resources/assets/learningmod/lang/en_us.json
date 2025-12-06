@@ -1,3 +1,7 @@
 {
-  "item.learningmod.alexandrite": "Alexandrite Gem"
+
+  "item.learningmod.megamindium": "Megamindium",
+  "item.learningmod.raw_megamindium": "Raw Megamindium",
+
+  "block.learningmod.megamindium_block": "Block of Megamindium"
 }

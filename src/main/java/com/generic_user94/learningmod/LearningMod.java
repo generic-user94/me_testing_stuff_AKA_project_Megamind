@@ -1,5 +1,6 @@
 package com.generic_user94.learningmod;
 
+import com.generic_user94.learningmod.block.ModBlocks;
 import com.generic_user94.learningmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -34,6 +35,7 @@ public class LearningMod {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -50,7 +52,13 @@ public class LearningMod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event){
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.ALEXANDRITE);
+            event.accept(ModItems.MEGAMINDIUM);
+            event.accept(ModItems.RAW_MEGAMINDIUM);
+
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.MEGAMINDIUM_BLOCK);
         }
     }
 
