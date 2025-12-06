@@ -59,6 +59,7 @@ public class LearningMod {
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.MEGAMINDIUM_BLOCK);
+            event.accept(ModBlocks.RAW_MEGAMINDIUM_BLOCK);
         }
     }
 
