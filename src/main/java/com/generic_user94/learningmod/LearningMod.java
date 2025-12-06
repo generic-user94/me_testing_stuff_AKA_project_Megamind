@@ -1,6 +1,7 @@
 package com.generic_user94.learningmod;
 
 import com.generic_user94.learningmod.block.ModBlocks;
+import com.generic_user94.learningmod.item.ModCreativeModeTabs;
 import com.generic_user94.learningmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -33,6 +34,8 @@ public class LearningMod {
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);

@@ -4,5 +4,8 @@
   "item.learningmod.raw_megamindium": "Raw Megamindium",
 
   "block.learningmod.megamindium_block": "Block of Megamindium",
-  "block.learningmod.raw_megamindium_block": "Block of Raw Megamindium"
+  "block.learningmod.raw_megamindium_block": "Block of Raw Megamindium",
+
+  "creativetab.learningmod.megamindium_items": "Megamindium Items",
+  "creativetab.learningmod.megamindium_blocks": "Megamindium Blocks"
 }
