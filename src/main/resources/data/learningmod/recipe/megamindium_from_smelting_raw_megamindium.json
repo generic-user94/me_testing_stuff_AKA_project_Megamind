@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "items",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "learningmod:raw_megamindium"
+  },
+  "result": {
+    "id": "learningmod:megamindium"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "catagory": "misc",
+  "key": {
+    "M": {
+      "item": "learningmod:megamindium"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "learningmod:megamindium_block"
+  }
+}
