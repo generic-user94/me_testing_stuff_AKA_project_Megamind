@@ -2,9 +2,11 @@ package com.generic_user94.learningmod.block;
 
 import com.generic_user94.learningmod.LearningMod;
 import com.generic_user94.learningmod.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -20,6 +22,9 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, LearningMod.MOD_ID);
 
+
+
+
     public static final RegistryObject<Block> MEGAMINDIUM_BLOCK = registerBlock("megamindium_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(1f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
@@ -29,8 +34,11 @@ public class ModBlocks {
                     .strength(1f).requiresCorrectToolForDrops().sound(SoundType.WET_SPONGE)));
 
     public static final RegistryObject<Block> MEGAMINDIUM_ORE = registerBlock("megamindium_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.NETHER_GOLD_ORE)));
+            () -> new DropExperienceBlock(UniformInt.of(2, 4), BlockBehaviour.Properties.of()
+                    .strength(1f).requiresCorrectToolForDrops()));
+
+
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
