@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "learningmod:raw_megamindium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "learningmod:raw_megamindium"
+  }
+}
