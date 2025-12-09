@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "tutorialmod:alexandrite_ore"
+              "name": "learningmod:megamindium_ore"
             },
             {
               "type": "minecraft:item",
@@ -40,7 +40,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "tutorialmod:raw_megamindium"
+              "name": "learningmod:raw_megamindium"
             }
           ]
         }
@@ -48,5 +48,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "tutorialmod:blocks/megamindium_ore"
+  "random_sequence": "learningmod:blocks/megamindium_ore"
 }
