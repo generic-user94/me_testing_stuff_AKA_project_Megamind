@@ -1,10 +1,9 @@
 {
-  "replace": false,
   "values": [
 
-    "learningmod:megamindium_block",
-    "learningmod:raw_megamindium_block",
-    "learningmod:megamindium_ore"
+      "learningmod:megamindium_block",
+      "learningmod:raw_megamindium_block",
+      "learningmod:megamindium_ore"
 
   ]
 }
