@@ -37,6 +37,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.COW_BLOCK.get());
                         pOutput.accept(ModBlocks.RAT_BLOCK.get());
                         pOutput.accept(ModBlocks.STRAWBERRIES_BLOCK.get());
+                        pOutput.accept(ModBlocks.MYSTERY_BLOCK.get());
 
                     })
                     .build());

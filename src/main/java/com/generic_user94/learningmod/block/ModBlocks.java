@@ -61,6 +61,12 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.WOOL)));
 
+    public static final RegistryObject<Block> MYSTERY_BLOCK = registerBlock("mystery_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.ANVIL)));
+
 
 
 
