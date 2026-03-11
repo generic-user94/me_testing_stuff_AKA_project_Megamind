@@ -3,10 +3,13 @@
   "item.learningmod.megamindium": "Megamindium",
   "item.learningmod.raw_megamindium": "Raw Megamindium",
 
-  "block.learningmod.megamindium_block": "Block of Megamindium",
-  "block.learningmod.raw_megamindium_block": "Block of Raw Megamindium",
-  "block.learningmod.megamindium_ore": "Megamindium Ore",
+  "block.learningmod.cheese_block": "Block of Cheese",
+  "block.learningmod.cheese_with_legs_block": "Block of Cheese With Legs",
+  "block.learningmod.cherries_block": "Block of Cherries",
+  "block.learningmod.cow_block": "Block of Cow",
+  "block.learningmod.rat_block": "Block of Rat",
+  "block.learningmod.strawberries_block": "Block of Strawberries",
 
   "creativetab.learningmod.megamindium_items": "Megamindium Items",
-  "creativetab.learningmod.megamindium_blocks": "Megamindium Blocks"
+  "creativetab.learningmod.cheese_blocks": "CHEESE Blocks"
 }

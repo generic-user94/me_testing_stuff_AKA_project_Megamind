@@ -25,17 +25,43 @@ public class ModBlocks {
 
 
 
-    public static final RegistryObject<Block> MEGAMINDIUM_BLOCK = registerBlock("megamindium_block",
+    public static final RegistryObject<Block> CHEESE_BLOCK = registerBlock("cheese_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .strength(1f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOL)));
 
-    public static final RegistryObject<Block> RAW_MEGAMINDIUM_BLOCK = registerBlock("raw_megamindium_block",
+    public static final RegistryObject<Block> CHEESE_WITH_LEGS_BLOCK = registerBlock("cheese_with_legs_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.WET_SPONGE)));
+                    .strength(1f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOL)));
 
-    public static final RegistryObject<Block> MEGAMINDIUM_ORE = registerBlock("megamindium_ore",
-            () -> new DropExperienceBlock(UniformInt.of(2, 4), BlockBehaviour.Properties.of()
-                    .strength(1f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> CHERRIES_BLOCK = registerBlock("cherries_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<Block> COW_BLOCK = registerBlock("cow_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<Block> RAT_BLOCK = registerBlock("rat_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOL)));
+
+    public static final RegistryObject<Block> STRAWBERRIES_BLOCK = registerBlock("strawberries_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOL)));
+
+
 
 
 

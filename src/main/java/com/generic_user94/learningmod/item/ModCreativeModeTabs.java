@@ -27,12 +27,17 @@ public class ModCreativeModeTabs {
     public static final RegistryObject<CreativeModeTab> MEGAMINDIUM_BLOCKS_TAB = CREATIVE_MODE_TABS.register("megamindium_blocks_tab",
             () -> CreativeModeTab.builder()
                     .withTabsBefore(MEGAMINDIUM_ITEMS_TAB.getId())
-                    .icon(() -> new ItemStack(ModBlocks.MEGAMINDIUM_BLOCK.get()))
-                    .title(Component.translatable("creativetab.learningmod.megamindium_blocks"))
+                    .icon(() -> new ItemStack(ModBlocks.CHEESE_BLOCK.get()))
+                    .title(Component.translatable("creativetab.learningmod.cheese_blocks"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModBlocks.MEGAMINDIUM_BLOCK.get());
-                        pOutput.accept(ModBlocks.RAW_MEGAMINDIUM_BLOCK.get());
-                        pOutput.accept(ModBlocks.MEGAMINDIUM_ORE.get());
+
+                        pOutput.accept(ModBlocks.CHEESE_BLOCK.get());
+                        pOutput.accept(ModBlocks.CHEESE_WITH_LEGS_BLOCK.get());
+                        pOutput.accept(ModBlocks.CHERRIES_BLOCK.get());
+                        pOutput.accept(ModBlocks.COW_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAT_BLOCK.get());
+                        pOutput.accept(ModBlocks.STRAWBERRIES_BLOCK.get());
+
                     })
                     .build());
 
